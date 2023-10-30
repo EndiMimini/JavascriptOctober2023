@@ -1,0 +1,176 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* MY CSS STARTS HERE */
+
+.d-flex{
+    display: flex;
+}
+.justify-evenly{
+    justify-content: space-evenly;
+}
+.text-center{
+    text-align: center;
+}
+.p-20{
+    padding: 20px;
+}
+.align-center{
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.container{
+    background: linear-gradient(180deg, rgba(0,106,255,1) 0%, rgba(48,235,255,0.7637648809523809) 100%);
+}
+.text-white{
+    color: white;
+}
+.text-yellow{
+    color: yellow;
+}
+.text-black{
+    color: black;
+}
+.search{
+    background-color: #333;
+    padding: 10px 30px;
+    border-radius: 8px;
+    box-shadow:  3px black;
+}
+.searchInput{
+    padding: 5px;
+    text-align: center;
+}
+.search button{
+    background-color: blue;
+    border: 2px outset silver;
+    padding: 5px;
+}
+.header{
+    padding: 10px 20px;
+}
+.logoImage{
+    height: 100px;
+}
+.nav{
+    padding: 10px 0px;
+    background: linear-gradient(180deg, rgb(26, 55, 244) 0%, rgba(47,233,255,0.6769301470588236) 50%, rgb(8, 86, 159) 100%);
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 3px 3px black;
+    gap: 60px;
+}
+.nav a{
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+}
+.mainList{
+    width: 30%;
+}
+.mainDescription{
+width: 65%;
+}
+.belowNav{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+h2{
+    font-size: 22px;
+    line-height: 1.3;
+}
+.italic-text{
+    font-style: italic;
+}
+h3{
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.belowNav ul{
+    list-style: disc;
+    list-style-position: inside;
+}
+.installationProcess{
+    padding: 10px 0px;
+    background-color: white;
+
+}
+.installationTitle{
+    border-top: 2px solid blue;
+    font-weight: 700;
+}
+.installationList{
+    color: lightskyblue;
+    list-style: square;
+}
+
+.color-lightBlue{
+    color: lightskyblue;
+}
+footer{
+    padding: 10px 0px;
+}
+.footerLinks{
+    width: 60%;
+    margin: 0 auto;
+}
+.widthContainer{
+    width: 80%;
+    margin: 0 auto;
+}
+.widthContainer div{
+    margin: 0 10px;
+}
